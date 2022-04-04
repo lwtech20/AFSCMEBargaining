@@ -7,6 +7,8 @@ body {
   padding: 0;
 }
 
+/* Navigation*/
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -89,4 +91,28 @@ body {
   .navbar-links.active {
     display: flex;
   }
+}
+
+/* Content */
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+}
+
+.content-title {
+  padding-left: 1rem;
 }
